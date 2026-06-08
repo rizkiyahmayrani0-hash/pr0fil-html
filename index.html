@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Diri Siswa</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: white;
+            width: 380px;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .card img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4CAF50;
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin: 10px 0 5px;
+        }
+
+        .school {
+            color: gray;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+
+        table td {
+            padding: 8px;
+            font-size: 14px;
+            border-bottom: 1px solid #eee;
+            text-align: left;
+        }
+
+        .bio {
+            margin-top: 15px;
+            font-size: 13px;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        .quote {
+            margin-top: 15px;
+            font-style: italic;
+            color: #666;
+            font-size: 13px;
+        }
+
+        .badge {
+            background: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 12px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <!-- FOTO -->
+        <img src="https://via.placeholder.com/150" alt="Foto Siswa">
+
+        <!-- NAMA -->
+        <h1>Riskiyah Mayrani</h1>
+        <div class="school">SMKS YANNAS HUSADA BANGKALAN</div>
+
+        <div class="badge">Siswa Aktif</div>
+
+        <!-- TABEL DATA -->
+        <table>
+            <tr>
+                <td><b>Kelas</b></td>
+                <td>XB</td>
+            </tr>
+            <tr>
+                <td><b>Hobby</b></td>
+                <td>Make Up</td>
+            </tr>
+            <tr>
+                <td><b>Sekolah</b></td>
+                <td>SMKS YANNAS HUSADA BANGKALAN</td>
+            </tr>
+        </table>
+
+        <!-- DESKRIPSI -->
+        <div class="bio">
+            Saya adalah seorang pelajar yang memiliki minat dalam bidang kecantikan, khususnya make up. 
+            Saya senang belajar hal baru, berkreasi, dan mengembangkan kemampuan diri dalam dunia kecantikan.
+        </div>
+
+        <!-- QUOTE -->
+        <div class="quote">
+            “Belajar hari ini, sukses di masa depan.”
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
